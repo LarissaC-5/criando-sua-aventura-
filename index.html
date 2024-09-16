@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A jornada de Chapeuzinho</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="chapeuzinho-passo0.jpg" alt="">
+            <p>Chapeuzinho vermelho estava a caminho da casa da vovó para levar uma cesta de doces. Sua mãe a avisou:“Siga o caminho principal e não fale com estranhos.” Enquanto caminhava pela floresta, Chapeuzinho viu duas trilhas: a principal, mais segura, e outra menor, que parecia mais rápida e interessante
+            !</p>
+            <button class="btn-proximo" data-proximo="1">Chapeuzinho decide seguir o caminho principal, como sua mãe orientou</button>
+            <button class="btn-proximo" data-proximo="2">Chapeuzinho decide explorar o caminho menor, curiosa sobre o que pode encontrar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você chegou rapidamente á casa da vovó, quando entrou, encontrou sua avó sentada na cama, mas algo parecia estranho...</p>
+            <button class="btn-proximo" data-proximo="3">Se aproxima da vovó para ver melhor</button>
+            <button class="btn-proximo" data-proximo="4">decide sair e pedir ajuda</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolheu o atalho, mas encontrará o lobo que fingindo ser simpático, pergunta: "para onde vai, Chapeuzinho"?</p>
+            <button class="btn-proximo" data-proximo="5">Chapeuzinho responde que está indo para a casa da vovó</button>
+            <button class="btn-proximo" data-proximo="6">Chapeuzinho não responde e continua andando</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>A vovozinha já estava morta!</p>
+            <button class="btn-proximo" data-proximo="7">Correr e pedir ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="chapeuzinho-passo0.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Enquanto você foi pedir ajuda, o lobo comeu a vovozinha, e você sempre se culpa pelo que aconteceu.
+            </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O lobo fingindo interesse, sugere um caminho mais rápido e corre á frente, planejando chegar antes da Chapeuzinho.
+            </p>
+            <button class="btn-proximo" data-proximo="7">seguir o conselho do lobo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O lobo, irritado pela falta de resposta, decide seguir Chapeuzinho em silêncio, planejando atacá-la quando estivesse distraída.</p>
+            <button class="btn-proximo" data-proximo="8">seguir o caminho normalmente para a casa da vovó</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na floresta, o lobo busca pela chapeuzinho. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Na metade do caminho, você percebe o lobo se aproximar e tenta despistá-lo </p>
+            <button class="btn-proximo" data-proximo="7">correr sem direção</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda você encontra um caçador e pede ajuda. 
+            </p>
+            <button class="btn-proximo" data-proximo="11">relatar ao caçador o que aconteceu</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa de dificil acesso, não há outa saida a não ser....
+            </p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="chapeuzinho-passo0.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Chapeuzinho impede o caçador de matá-lo, propondo uma solução pacífica, embora profundamente triste, escolhe a compaixão
+        e sugere que o lobo seja levado para longe, para evitar mais mortes.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente você encontra um caçador e pede ajuda.
+                </p>
+            <button class="btn-proximo" data-proximo="11">relatar ao caçador o que aconteceu</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
